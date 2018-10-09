@@ -1,0 +1,14 @@
+
+
+内网主机，花生壳暴露22端口
+
+通过花生壳映射的22端口做SSH隧道端口映射内网服务
+
+windows下安装openSSH 
+
+https://www.mls-software.com/opensshd.html
+
+
+通过SSH -L 本地端口映射暴露内网服务
+
+ssh -L 2181:localhost:2181 root@flcode.iok.la -p 55008
