@@ -12,3 +12,6 @@ https://www.mls-software.com/opensshd.html
 通过SSH -L 本地端口映射暴露内网服务
 
 ssh -L 2181:localhost:2181 root@flcode.iok.la -p 55008
+
+
+java ssh 隧道 JSch http://www.jcraft.com/jsch/
